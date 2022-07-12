@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style2.css">
+    <title>Registro para Curso de Progamación</title>
+</head>
+<body>
+<header>
+<div id="banner"></div>
+</header>
+
+<section>
+
+<div id="Registro">
+    <h1>Curso de Progamación</h1>
+    <img id="imagen" src="solociencia.png">
+</div>
+  
+<div>
+
+    <form action="RegCursos.jsp" id="form" method="post">
+        
+        <div id="nombre">
+          <label  for="nombre">Nombre:</label><br>
+          <input  type="text" name="nombre" required placeholder="Ingrese su nombre" />
+        </div>
+
+        <div id="cedula">
+          <label for="apellido">Apellido:</label><br>
+          <input type="text" name="apellido" required placeholder="Ingrese su apellido" />
+        </div>
+
+        <div id="Fecha">
+          <label for="fecha">Fecha de inicio de curso:</label><br>
+         <select name="Fechas" id="menufecha">
+         <option selected>Seleccione su fecha de inicio</option>
+         <option value="primerafecha">20 de julio 2022</option>
+         <option value="segundafecha">24 de octubre 2022</option>
+         <option value="tercerafecha">14 de noviembre 2022</option>
+        </select>
+        </div>
+
+        <div>
+          <input type="hidden" name="Curso" value="Programacion">
+        </div>
+
+        <div id="registrar">
+          <input type="submit" value="Registrarse" class="submit" />
+        </div>
+    </form>
+</div>
+</section>
+<footer></footer>
+</body>
+</html>

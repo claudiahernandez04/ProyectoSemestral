@@ -1,0 +1,178 @@
+@charset "UTF-8";
+
+body{
+    margin: 0;
+    align-content: center;
+    background-color: #313c75;
+}
+
+header{
+    display: flex;
+    text-align: center;
+    align-content: center;
+    background-color: #E6F6FF;
+}
+
+.menu{
+    position: relative;
+    width: max-content;
+    padding-left: 25%;
+    padding-right: 10%;
+    /* padding-right: 25%; */
+}
+
+#menuleft{
+    position: relative;
+    left: 40%;
+}
+
+#menuright{
+    position: relative;
+    left: 60%;
+}
+
+.titulo{
+    position: relative;
+    width: 80%;
+    height: 80px;
+    left: 168px;
+    top: -10px;
+    background: #E6F6FF;
+    border: 3px solid #313C75;
+    transform: matrix(1, 0, 0, 1, 0, 0);    
+    /* background-color: #e6f6ff;
+    text-align: center;
+    padding: 10px 0 10px 0;
+    width: 80%; */
+}
+
+.titulo h1{
+    text-align: center;
+}
+
+section{
+    display: flex;
+    align-content: center;
+    text-align: center;
+    margin-top: 80px;
+}
+
+section table{
+    position: relative;
+    left: 40%;
+}
+
+td{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border: 1px solid black;
+    padding: 15px 5px 15px 5px;
+    font-weight: bold;
+    color: black;
+}
+
+.null{
+    border: 1px solid transparent;
+    background-color: transparent;
+}
+
+.verde{
+    background-color: rgb(34, 255, 34);
+}
+
+.azul{
+    background-color: rgb(119, 204, 255);
+}
+
+.naranja{
+    background-color: rgb(255, 204, 51);
+}
+
+.amarillo{
+    background-color: #ffff44;
+}
+
+.verdeopaco{
+    background-color: rgb(119, 221, 136);
+}
+
+.cian{
+    background-color: rgb(34, 238, 204);
+}
+
+.celeste{
+    background-color: rgb(153, 221, 204);
+}
+
+.rosa{
+    background-color: rgb(221, 187, 187);
+}
+
+.asterisco{
+    background-color: rgb(255, 187, 153);
+}
+
+.aster2{
+    background-color: rgb(238, 187, 221);
+}
+
+.radioactivos td{
+    position: relative;
+    top: 10px;
+}
+
+.rad2{
+    position: relative;
+    top: 10px;
+    padding: 15px 5px 15px 5px;
+    margin: 10px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+} 
+
+#astr1, #astr2{
+    border: 1px solid transparent;
+}
+
+.verde, .azul, .naranja, .amarillo, .verdeopaco, .cian, .celeste, .rosa, .asterisco, .aster2, .radioactivos{
+    z-index: 0;
+}
+
+.verde:hover, .azul:hover, .naranja:hover, .amarillo:hover, .verdeopaco:hover, .cian:hover, .celeste:hover, .rosa:hover, .asterisco:hover, .aster2:hover, .radioactivos:hover, .rad2:hover{
+    border: 1px solid rgba(255,255,255,.5);
+    /* background-color: rgba(255,255,255,1); */
+    background-color: #031FA2;
+    font-size: 1.25rem;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(6px);
+    cursor: pointer;
+    transition: .8s;
+    transform: scale(1.5);
+    color: white;
+    z-index: 1;
+}
+
+#astr1:hover, #astr2:hover{
+    background-color: transparent;
+}
+
+.verde:hover, .azul:hover, .naranja:hover, .amarillo:hover, .verdeopaco:hover, .cian:hover, .celeste:hover, .rosa:hover, .asterisco:hover, .aster2:hover, .radioactivos:hover, .rad2:hover{
+    /* background-color: transparent; */
+    background-color: #031FA2;
+    /*filter: blur(10px);*/
+}
+
+footer{
+    background-color: rgb(192, 247, 247);
+    margin-top: 25px;
+}
+.copyright{
+    text-align: center;
+}
